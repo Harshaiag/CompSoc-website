@@ -781,6 +781,16 @@ input, select, textarea {
 
 		}
 
+.logo_image {
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.logo_image img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
 		@media screen and (max-width: 1280px) {
 
 			.row {
