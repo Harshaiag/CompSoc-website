@@ -1,1 +1,1 @@
-# CompSci-website
+# CompSoc-website
