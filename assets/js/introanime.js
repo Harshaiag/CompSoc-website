@@ -1,5 +1,5 @@
 let a = 1;
-let aChange = 0.5;
+let aChange = 0.1;
 let canvas;
 
 function setup() {
@@ -14,7 +14,6 @@ function setup() {
 
 function draw() {
     loadPixels();
-
     for (let x = 0; x < width; x++) {
         for (let y = 0; y < height; y++) {
             let val = tan((x - width / 2) ** 2 + (y - height / 2) ** 2);
@@ -23,7 +22,7 @@ function draw() {
                 pixels[pix + 0] = 0;
                 pixels[pix + 1] = random(255);
                 pixels[pix + 2] = random(255);
-                pixels[pix + 3] = 255;
+                pixels[pix + 3] = random(255);
             }
         }
     }
