@@ -30,7 +30,7 @@ function draw() {
     updatePixels();
 
     a += aChange;
-    if (a > 0.5 * PI || a < -0.5 * PI) {
+    if (a > 0.05 * PI || a < -0.05 * PI) {
         a = 0;
     }
 }
