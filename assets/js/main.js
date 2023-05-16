@@ -1,6 +1,10 @@
-/*
-	
-*/
+
+
+function windowResized() {
+	resizeCanvas(windowWidth, 300); // Adjust the height to fit the banner
+}
+
+
 
 (function($) {
 
