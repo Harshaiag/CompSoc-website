@@ -1,5 +1,5 @@
 let a = 1;
-let aChange = 0.91;
+let aChange = 0.5;
 let canvas;
 
 function setup() {
