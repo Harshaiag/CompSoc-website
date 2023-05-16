@@ -3,7 +3,7 @@ let aChange = 0.5;
 let canvas;
 
 function setup() {
-    canvas = createCanvas(windowWidth, 1000); // Adjust the height to fit the banner
+    canvas = createCanvas(windowWidth, windowHeight); // Adjust the height to fit the banner
     canvas.parent('p5Canvas'); // Place the canvas in the banner element
     background(0); // Set the background to black
     canvas.style('z-index', '-2');

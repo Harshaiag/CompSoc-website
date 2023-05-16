@@ -5,6 +5,8 @@
 	
 */
 
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -16,8 +18,7 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	position:relative;
-	z-index: 1;
+
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -4004,3 +4005,9 @@ input, select, textarea {
 						background-position: 200% center;
 					}
 				}
+
+	#defaultCanvas0
+	{
+		width: 100% !important;
+		height: 100% !important;
+	}
