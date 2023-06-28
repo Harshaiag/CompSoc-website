@@ -23,10 +23,12 @@ function draw() {
 
             if (abs(val - a) < 0.01) {
                 let pix = (x + y * width) * 4;
-                pixels[pix + 0] = 0;
-                pixels[pix + 1] = random(255);
-                pixels[pix + 2] = random(255);
-                pixels[pix + 3] = random(255);
+                pixels[pix + 0] = random(255);  // Red channel (set to 255)
+                pixels[pix + 1] = 50;    // Green channel (set to 0)
+                pixels[pix + 2] = 50;    // Blue channel (set to 0)
+                pixels[pix + 3] = 255;  // Alpha channel
+
+
             }
         }
     }
