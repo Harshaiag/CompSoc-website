@@ -4002,13 +4002,11 @@ input, select, textarea {
 		height: 100% !important;
 	}
 
-	    .button{
+	    .butto{
 			transition-duration: 0.1s;
-			border: 1px solid rgb(110, 242, 139) !important;
-				color: rgb(30, 207, 216) ! important;
-				border-radius: 8px;
+
 		}
-		.button:hover {
+		.butto:hover {
 		
 			background-color: #6fc3df;
 			color: #000000 !important;
