@@ -1,5 +1,5 @@
 let a = 1;
-let aChange = 0.0001;
+let aChange = 0.00005;
 let canvas;
 let values = [];
 
