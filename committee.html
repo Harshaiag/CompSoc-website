@@ -10,7 +10,8 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
+	<body class="is-preload" id="p5Canvas" style="position: relative;">
+		
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -52,18 +53,15 @@
 
 				<!-- Banner -->
 				<!-- Note: The "styleN" class below should match that of the header element. -->
-					<section id="banner" class="style2">
+					<section  class="style2">
 						<div class="inner">
-							<span class="image">
-								<img src="images/committee.jpg" alt="" />
-							</span>
-							<header class="major">
-								<h1>Committee</h1>
+							<header >
+								<div
+									style="font-family: 'Helvetica', sans-serif; font-size: 40px; letter-spacing: 3px; text-align: center; color: #fff; padding: 20px;  border-radius: 10px; text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);">
+									<p>The Committee<br>of 2023-24</p>
+								</div>
 							</header>
-									<div
-										style="font-family: 'Helvetica', sans-serif; font-size: 40px; letter-spacing: 3px; text-align: center; color: #fff; padding: 20px;  border-radius: 10px; text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);">
-										<p>The Committee<br>of 2023-24</p>
-									</div>
+									
 
 						</div>
 					</section>
@@ -212,7 +210,7 @@
 					</div>
 
 				<!-- Contact -->
-					<section id="contact">
+					<section id="split">
 						<div class="inner">
 
 							<section class="split">
@@ -264,6 +262,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/introanime.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
 
 	</body>
 </html>
