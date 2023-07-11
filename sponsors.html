@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
+	<body class="is-preload" id="p5Canvas" style="position: relative;">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -19,20 +19,21 @@
 				<!-- Note: The "styleN" class below should match that of the banner element. -->
 					<header id="header" class="alt">
 						<img class = "logo_image" href = "index.html" src="images/leicestercs.jpeg" alt="" width:1px height:1px>
+						<a href="index.html"></a>
 						
 						
 
 						<nav>
 													
-									<a href="https://www.leicesterunion.com/opportunities/societies/findasociety/18501/" target="_blank" class="butto" style="color:#ffffff !important">
+									<a href="https://www.leicesterunion.com/opportunities/societies/findasociety/18501/" class="butto" style="color:#ffffff !important">
 									   Join
 									</a>
-<a href="hackathon.html" target="_blank" class="butto" style="color:#ffffff !important">Hackathon
+<a href="hackathon.html"  class="butto" style="color:#ffffff !important">Hackathon
 										</a>
-									<a href="committee.html" target="_blank" class="butto" style="color:#ffffff !important">
+									<a href="committee.html"  class="butto" style="color:#ffffff !important">
 										Committee
 									</a>
-									<a href="sponsors.html" target="_blank" class="butto" style="color:#ffffff !important">
+									<a href="sponsors.html"  class="butto" style="color:#ffffff !important">
 										Sponsors
 									</a>
 						</nav>
@@ -52,18 +53,19 @@
 
 				<!-- Banner -->
 				<!-- Note: The "styleN" class below should match that of the header element. -->
-					<section id="banner" class="style2">
+					<section  class="style2">
 						<div class="inner">
-							<span class="image">
-								<img src="images/sponsors.jpg" alt="" />
-							</span>
-							<header class="major">
-								<h1>Sponsors & Partners</h1>
+							<header >
+								<div
+									style="font-family: 'Helvetica', sans-serif; font-size: 40px; letter-spacing: 3px; text-align: center; color: #fff; padding: 20px;  border-radius: 10px; text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);">
+
+                                        <h4>Sponsors & Partners</h4>
+										<p>We would not have been creating this website<br />
+											Thanks to Sponsors & Partners.</p>
+								</div>
 							</header>
-							<div class="content">
-								<p>We would not have been creating this website<br />
-								Thanks to Sponsors & Partners.</p>
-							</div>
+									
+
 						</div>
 					</section>
 
@@ -83,7 +85,7 @@
 											</header>
 											<p>BCS, The Chartered Institute for IT, promotes wider social and economic progress through the advancement of information technology science and practice. We serve over 70,000 members including practitioners, businesses, academics and students, in the UK and internationally.</p>
 											<ul class="actions">
-												<li><a href="sponsors.html" class="button">Learn more</a></li>
+												<li><a href="https://www.bcs.org" class="button">Learn more</a></li>
 											</ul>
 										</div>
 									</div>
@@ -99,23 +101,23 @@
 											</header>
 											<p>The Department of Informatics at the University of Leicester is a leading centre for research and teaching in computer science, information systems and software engineering. </p>
 											<ul class="actions">
-												<li><a href="sponsors.html" class="button">Learn more</a></li>
+												<li><a href="https://le.ac.uk/informatics" class="button">Learn more</a></li>
 											</ul>
 										</div>
 									</div>
 								</section>
 								<section>
-									<a href="sponsors.html" class="image">
-										<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+									<a href="https://www.baesystems.com/en/home" class="image">
+										<img src="images/BAE-Systems.png" alt="" data-position="25% 25%" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Sed nunc ligula</h3>
+												<h3>BAE Systems (2017-2018)</h3>
 											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<p>BAE Systems is a global defence, aerospace and security company employing around 83,100 people worldwide. Our wide-ranging products and services cover air, land and naval forces, as well as advanced electronics, security, information technology, and support services.</p>
 											<ul class="actions">
-												<li><a href="sponsors.html" class="button">Learn more</a></li>
+												<li><a href="https://www.baesystems.com/en/home" class="button">Learn more</a></li>
 											</ul>
 										</div>
 									</div>
@@ -126,11 +128,11 @@
 							<section id="three">
 								<div class="inner">
 									<header class="major">
-										<h2>Massa libero</h2>
+										<h2>Sponsor Us</h2>
 									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+									<p>Our society is always looking for new sponsors and partners to help us grow and provide more opportunities for our members. If you are interested in sponsoring us, please click the button below to find out more.</p>
 									<ul class="actions">
-										<li><a href="sponsors.html" class="button next">Get Started</a></li>
+										<li><a href="mailto:ulcomputingsoc@gmail.com" class="button next">Get Started</a></li>
 									</ul>
 								</div>
 							</section>
@@ -190,6 +192,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/introanime.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
 
 	</body>
 </html>
