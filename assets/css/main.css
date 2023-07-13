@@ -4019,3 +4019,16 @@ input, select, textarea {
 							align-items: center;
 							height: 100vh;
 						}
+
+
+												nav a.button {
+													font-size: 16px;
+													/* Default font size for larger screens */
+												}
+						
+												@media (max-width: 767px) {
+													nav  {
+														font-size: 13px;
+														/* Adjusted font size for mobile screens */
+													}
+												}
