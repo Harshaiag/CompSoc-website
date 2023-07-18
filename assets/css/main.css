@@ -4031,4 +4031,10 @@ input, select, textarea {
 														font-size: 13px;
 														/* Adjusted font size for mobile screens */
 													}
+
+													#passage {
+														font-size: 13px;
+														margin: 0px !important;
+														/* Adjusted font size for mobile screens */
+													}
 												}
