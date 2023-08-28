@@ -1,3 +1,2 @@
 text
 User-agent: *
-Disallow: images\leicestercs.png
